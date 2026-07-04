@@ -65,7 +65,7 @@ The tool uses `boto3`, AWS's official Python SDK, to connect to an AWS account u
 - `boto3` installed (`pip install boto3`)
 - AWS CLI configured with credentials (`aws configure`)
 
-**IAM Permissions needed:** This tool only needs read access. It was built and tested using an IAM user with `AmazonS3ReadOnlyAccess` and `IAMReadOnlyAccess` attached — deliberately scoped down following least-privilege, since the scanner only needs to read configurations, not modify anything.
+**IAM Permissions needed:** This tool only needs read access. It was built and tested using an IAM user with `AmazonS3ReadOnlyAccess` and `IAMReadOnlyAccess` attached, deliberately scoped down following least-privilege, since the scanner only needs to read configurations, not modify anything.
 
 **Run it:**
 ```bash
