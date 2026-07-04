@@ -1,0 +1,3 @@
+.aws/
+   *.pyc
+   __pycache__/
