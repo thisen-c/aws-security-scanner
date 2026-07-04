@@ -101,4 +101,4 @@ While testing, my "private" test bucket was unexpectedly flagged as a public acc
 
 ## Scope & Limitations
 
-This scanner checks for three specific, well-known misconfiguration patterns. A production-grade tool (like AWS Security Hub or AWS Trusted Advisor) would include dozens or hundreds of checks across many more services. This project demonstrates the core concept — automated, rule-based detection of cloud misconfigurations — end to end, on a smaller scale.
+This scanner checks for three specific, well-known misconfiguration patterns. A production-grade tool (like AWS Security Hub or AWS Trusted Advisor) would include dozens or hundreds of checks across many more services. This project demonstrates the core concept of automated, rule-based detection of cloud misconfigurations from start to finish on a smaller scale.
