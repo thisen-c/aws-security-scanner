@@ -4,7 +4,7 @@ A Python tool that connects to AWS and automatically scans an account for common
 
 ## Why I Built This
 
-Cloud misconfigurations (not sophisticated hacking) are one of the most common real-world causes of data breaches. Manually checking every storage bucket and every user's permissions in an AWS account is slow and easy to get wrong, especially as an account grows. This tool automates that check, running the same kind of logic that real cloud security tools (like AWS Security Hub) use, just on a smaller scale.
+This is my first proper hands-on project in the cloud/security space. I am a second-year Computer Science student with growing interest in cloud computing and cybersecurity, and I wanted to set up real IAM users, purposefully misconfigure test resources, and have something that could catch those mistakes automatically. Cloud misconfigurations are actually one of the most common real-world causes of data breaches, so I developed a tool to simplify the manual security checks performed by security engineers. 
 
 ## Security Checks Performed
 
